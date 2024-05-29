@@ -78,4 +78,4 @@ Open on your browser https://tech.redventures.com.br/, insert the on the modal f
 
 #### Documentation of API
 
-[Swagger UI](http://127.0.0.1:8000/docs) - Interactive API documentation
+[Swagger UI](http://127.0.0.1:8000/docs) - Interactive API documentation (with project running locally)

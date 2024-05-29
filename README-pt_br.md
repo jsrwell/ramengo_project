@@ -78,4 +78,4 @@ Abra em seu navegador https://tech.redventures.com.br/ e insira no formulário m
 
 #### Documentação da API
 
-[Swagger UI](http://127.0.0.1:8000/docs) - Documentação interativa da API
+[Swagger UI](http://127.0.0.1:8000/docs) - Documentação interativa da API (com o projeto rodando localmente)
