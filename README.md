@@ -78,6 +78,11 @@ Open on your browser https://tech.redventures.com.br/, insert the on the modal f
 └───main.py         # main module with routes and api handlers
 ```
 
-#### Documentation of API
+## Documentation of API
 
-[Swagger UI](http://127.0.0.1:8000/docs) - Interactive API documentation (with project running locally)
+[Swagger UI](https://ramengo-project.onrender.com/docs) - Interactive API documentation (or access locally with `http://127.0.0.1/docs`)
+
+## Online API Example
+
+- [API Backend Ramengo](https://ramengo-project.onrender.com) - Access online API on (`https://ramengo-project.onrender.com`)
+- API Key - `ac5923cd4de19298ce7e2f9dfaa2014a4dd782b1`
