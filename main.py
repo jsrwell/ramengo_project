@@ -81,11 +81,13 @@ async def create_order(request: Request, x_api_key: str = Header(...)):
     except json.JSONDecodeError:
         raise HTTPException(status_code=400, detail="Invalid JSON body")
 
+    # Check request format
     try:
         order_request = OrderRequest(**order_data)
     except ValidationError as e:
         raise HTTPException(status_code=422, detail=str(e))
 
+    # Validate the Selection
     broth = next(
         (item for item in
          BROTHS if item["id"] == int(order_request.brothId)), None)
@@ -97,12 +99,14 @@ async def create_order(request: Request, x_api_key: str = Header(...)):
         raise HTTPException(
             status_code=400, detail="both brothId and proteinId are required")
 
+    # Get External Order Id
     async with httpx.AsyncClient() as client:
         response = await client.post(
             "https://api.tech.redventures.com.br/orders/generate-id",
             headers={"x-api-key": settings.API_KEY}
         )
 
+    # Validate Response
     if response.status_code != 200:
         raise HTTPException(status_code=500, detail="could not place order")
 

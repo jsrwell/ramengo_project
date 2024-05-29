@@ -1,5 +1,5 @@
 """
-Mock data for broths and proteins
+Mock data for broths and proteins.
 """
 
 BROTHS = [
