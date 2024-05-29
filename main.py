@@ -103,7 +103,7 @@ async def create_order(request: Request, x_api_key: str = Header(...)):
     async with httpx.AsyncClient() as client:
         response = await client.post(
             "https://api.tech.redventures.com.br/orders/generate-id",
-            headers={"x-api-key": settings.API_KEY}
+            headers={"x-api-key": settings.REDVENTURES_KEY}
         )
 
     # Validate Response
