@@ -13,14 +13,6 @@ BROTHS = [
     },
     {
         "id": 2,
-        "name": "Shoyu",
-        "imageInactive": "https://tech.redventures.com.br/icons/soy/inactive.svg",  # noqa E501
-        "imageActive": "https://tech.redventures.com.br/icons/soy/active.svg",
-        "description": "Rich soy sauce based broth",
-        "price": 12
-    },
-    {
-        "id": 3,
         "name": "Miso",
         "imageInactive": "https://tech.redventures.com.br/icons/miso/inactive.svg",  # noqa E501
         "imageActive": "https://tech.redventures.com.br/icons/miso/active.svg",
@@ -45,13 +37,5 @@ PROTEINS = [
         "imageActive": "https://tech.redventures.com.br/icons/chicken/active.svg",  # noqa E501
         "description": "Tender chicken breast slices with a touch of ginger.",
         "price": 10
-    },
-    {
-        "id": 3,
-        "name": "Tofu",
-        "imageInactive": "https://tech.redventures.com.br/icons/tofu/inactive.svg",  # noqa E501
-        "imageActive": "https://tech.redventures.com.br/icons/tofu/active.svg",
-        "description": "Crispy tofu cubes perfect for vegetarians.",
-        "price": 8
     }
 ]
