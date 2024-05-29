@@ -2,6 +2,8 @@
 
 A API do RamenGo permite que os usuários listem caldos e proteínas disponíveis, e façam um pedido de uma deliciosa refeição de ramen.
 
+![RamenGo](assets/ramengo.png)
+
 ## Primeiros Passos
 
 ### Pré-requisitos

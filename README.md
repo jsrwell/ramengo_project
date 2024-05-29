@@ -2,6 +2,8 @@
 
 The RamenGo API allows users to list available broths and proteins, and place an order for a delicious ramen meal.
 
+![RamenGo](assets/ramengo.png)
+
 ## Getting Started
 
 ### Prerequisites
