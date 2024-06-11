@@ -62,7 +62,7 @@ def get_proteins(x_api_key: str = Header(...)):
     return PROTEINS
 
 
-@app.post("/order", response_model=OrderResponse, responses={
+@app.post("/orders", response_model=OrderResponse, responses={
     201: {"description": "Order placed successfully", "model": OrderResponse},
     400: {"description": "Invalid request", "model": ErrorResponse},
     403: {"description": "Forbidden", "model": ErrorResponse},
